@@ -1,0 +1,65 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+/* Set a style for the rest of the elements besides the header elements on the index.html page  */ 
+.postButtons {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+.midButtons {
+ width: 110px;
+ padding: 10px;
+ cursor: pointer;
+ font-weight: 500;
+ font-size: 90%;
+ background: #ffae42;
+ color: black;                 
+ margin: 10px 10px 0px 0px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+}
+
+button:hover {
+ opacity:1;
+}
+
+#create-post-modal-content {
+    width: 70%;
+}
+#create-post-title {
+    width: 50%;
+}
+.create-post-button {
+    margin-top: auto;
+    background-color:#2BB968;
+    padding: 10px 15px 10px 15px;
+    border:none;
+    color:white;
+    font-weight: bold;
+}
+.create-post-submit {
+    text-align: center;
+}
+.text-area-title {
+    font-family: 'Abel', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    margin-bottom:1%;
+}
+textarea {
+    background-color:#F2F2F2;
+    width:90%;
+    margin-bottom:2%;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+    <title>ScriBBler</title>
+
+</head>
+<body>
+    <div id="main-container-div">
+
+        <div class="header">
+     
+            <input class="topButtons" id="signUp" type="button" value="Sign Up">       
+            <input class="topButtons" id="signIn" type="button" value="Sign In">      
+            <a id="pageTitle" class="logo-title" color="#112fb4">ScriBBler</a>
+            <p class="middleText">Explore, Imagine, Create</p>
+
+        </div>
+           
+        <div class="postButtons">
+            <button type="button" class="midButtons" onclick="window.open('./html/bloglist.html','_self');"> All Posts </button>
+            <button type="button" class="midButtons" id="createPost"> Create Post </button>
+        </div>
+
+    </div>
+  
+
+    <div id="signInModal" class="modal">
+     <div class="modal-content">
+         <span class="close" id="closein">&times;</span>
+         <br>
+         <p class="modal-title">Welcome Back!</p>
+         <hr>
+         <form>
+             <p>Username</p>
+             <input type="text" name="Username" placeholder="Enter Username" required>
+             <p>Password</p>
+             <input type="password" name="Password" placeholder="Enter Password" required>
+             <div>
+                 <input class="submitbtn" type="submit" value="Sign In">
+             </div>
+             <p class="form-footer-text">Not a member? <span class="form-href" onclick="openSignUpModal()">Sign Up</span></p>
+         </form>
+     </div>
+    </div>
+
+    <div id="signUpModal" class="modal">
+     <div class="modal-content">
+         <span class="close" id="closeup">&times;</span>
+         <br>
+         <p class="modal-title">Get Started</p>
+         <hr>
+         <form>
+             <p>Full Name</p>
+             <input type="text" name="Fullname" placeholder="Enter Full Name" required>
+             <p>Username</p>
+             <input type="text" name="Username" placeholder="Enter Username" required>
+             <p>Password</p>
+             <input type="password" name="Password" placeholder="Enter Password" required>
+             <p>Confirm Password</p>
+             <input type="password" name="ConfirmPassword" placeholder="Confirm Password" required>
+             <div>
+                 <input class="submitbtn" type="submit" value="Sign Up">
+             </div>
+         </form>
+     </div>
+    </div> 
+
+
+    <div id="createPostModal" class="modal">
+     <div id="create-post-modal-content" class="modal-content">
+         <span class="close" id="closecreate">&times;</span>
+         <br>
+         <p class="modal-title">Pen Your Post</p>
+         <form id="createPostForm">
+             <p>Title:</p>
+             <input id="create-post-title" type="text" name="posttitle">
+         </form>
+         <p class="text-area-title">Content:</p>
+         <textarea name="postContent" rows="20" cols="100" form="createPostForm"></textarea>
+         <div class="create-post-submit">
+             <input class="create-post-button" type="submit" value="Create">
+         </div>
+     </div>
+    </div> 
+
+    <!-- Place all Javascript for header in this file -->
+    <script src="js\header.js"></script>
+    <!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+</body>
+</html>

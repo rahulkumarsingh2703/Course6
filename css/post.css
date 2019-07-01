@@ -1,0 +1,69 @@
+.blogTite {
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}
+.blogText {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: justify;
+     margin: 0px 10px 0px 10px;
+
+}
+.blogAuthor {
+    padding: 0px 0px 0px 10px;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+}
+#likePara{
+    margin: 0px 10px 15px 10px;
+}
+.blogTite{
+    text-align: center;
+}
+.editButton{
+    float: right;
+    padding: 1%;
+    background-color: #f42072;
+    color:white;
+    width: 7%;
+    margin: 0px 10px 0px 10px;
+}
+.likeButton{
+    padding: 1%;
+    background-color: #f42072;
+    color:white;
+    width: 7%;
+    margin: 0px 10px 0px 10px;
+}
+.commentText{
+    width: 50%;
+    height:80px;
+    margin: 0px 10px 0px 10px;
+}
+.commPost{
+    padding: 1%;
+    background-color: #f42072;
+    color:white;
+    width: 7%;
+    margin-top: 1%;
+    margin: 10px 10px 10px 10px;
+}
+.allCommt{
+    font-weight: bold;
+    margin: 0px 10px 0px 10px;
+}
+.showCommt{
+    background-color: grey;
+    padding:10px;
+    margin: 0px 10px 0px 10px;
+}
+.textStyle{
+    background-color: white;
+    height: 70px;
+    width:100%;
+    resize: none;
+}
+.likeButton{
+    margin: 0px 10px 0px 10px;
+}
+/* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
